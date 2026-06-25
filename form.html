@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>User Registration Form</h2>
+
+<form>
+
+    <div>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password" required>
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" required>
+    </div>
+
+    <div>
+        <label>Phone:</label>
+        <input type="tel" placeholder="Enter phone number" required>
+    </div>
+
+    <div>
+        <label>Website:</label>
+        <input type="url" placeholder="Enter website URL">
+    </div>
+
+    <div>
+        <label>Date:</label>
+        <input type="date" required>
+    </div>
+
+    <div>
+        <label>Date & Time:</label>
+        <input type="datetime-local" required>
+    </div>
+
+    <div>
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </div>
+
+    <div>
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+    </div>
+
+    <div>
+        <label>Upload Resume:</label>
+        <input type="file">
+    </div>
+
+    <div>
+        <label>Experience Level:</label>
+        <input type="range" min="0" max="10">
+    </div>
+
+    <div>
+        <label>Favorite Color:</label>
+        <input type="color">
+    </div>
+
+    <div>
+        <img src="https://via.placeholder.com/100" alt="Sample Image">
+        <span>This is an inline element (span).</span>
+    </div>
+
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+
+</body>
+</html>
